@@ -1,0 +1,17 @@
+:root{
+    --light-grey: #e8ebed;
+}
+
+div.center{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+div.gray-container{
+    background: var(--light-grey);
+}
+
+.content-center{
+    text-align: center;
+ }
