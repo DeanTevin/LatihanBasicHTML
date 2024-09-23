@@ -16,6 +16,22 @@
     margin: 1%;
 }
 
+.white-container{
+    background: white;
+}
+
+.bio{
+    padding: 1%;
+}
+
+.bio b.title{
+    font-size: large;
+}
+
+.bio p.bio-content{
+    margin-top: 4px; margin-bottom: 2px;
+}
+
 div.center{
     margin: auto;
     width: 50%;
@@ -28,4 +44,26 @@ div.gray-container{
 
 .content-center{
     text-align: center;
- }
+}
+
+.grid-display{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 1em;
+}
+
+.col-md-2{
+    grid-column: span 2;
+}
+
+.box{
+    border-bottom: 1px solid; 
+    border-right: 1px solid; 
+    border-color: rgba(171, 171, 171, 0.555);
+    height: 15em;
+}
+
+.box-content-center{
+    text-align: center;
+    padding: 30%;
+}
